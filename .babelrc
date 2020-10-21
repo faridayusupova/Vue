@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "modules": false }, "@vue/cli-plugin-babel/preset"]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", { "targets": { "node": "current" }}]
+      ]
+    }
+  }
+}
